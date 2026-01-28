@@ -1,0 +1,40 @@
+# =========================
+# Python virtual environment
+# =========================
+venv/
+.env/
+
+# =========================
+# Python cache / compiled files
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# VS Code settings
+# =========================
+.vscode/
+
+# =========================
+# macOS system files
+# =========================
+.DS_Store
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Jupyter (optional, safe to include)
+# =========================
+.ipynb_checkpoints/
