@@ -1,0 +1,12 @@
+services:
+  xmpp_server:
+    image: prosody/prosody:latest
+    ports:
+      - "5223:5222"
+    volumes:
+      - ./prosody.cfg.lua:/etc/prosody/prosody.cfg.lua:ro
+      - prosody_data:/var/lib/prosody
+    restart: unless-stopped
+
+volumes:
+  prosody_data:
